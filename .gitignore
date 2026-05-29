@@ -1,0 +1,21 @@
+# Max for Live
+*.amxd~
+*.maxbak
+*.maxsnapshot
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+*.log
+
+# Node for Max
+node_modules/
+package-lock.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

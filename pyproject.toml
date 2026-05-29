@@ -1,0 +1,32 @@
+[project]
+name = "mtl-c2pa-server"
+version = "0.1.0"
+description = "Local HTTP C2PA reader for the mtl-c2pa-ableton Max for Live device."
+authors = [
+    {name = "MusicTech Lab"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "c2pa-python>=0.32.0,<1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+]
+
+[project.scripts]
+mtl-c2pa-http = "mtl_c2pa_server.http:run"
+
+[tool.poetry]
+packages = [{include = "mtl_c2pa_server", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.15.6,<0.16.0"
+pytest = ">=9.0.2,<10.0.0"
+httpx = ">=0.27.0"

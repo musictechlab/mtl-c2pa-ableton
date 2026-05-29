@@ -1,0 +1,8 @@
+{
+  "name": "mtl-c2pa-ableton-node",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Node for Max HTTP client for the mtl-c2pa-ableton M4L device.",
+  "main": "c2pa_node.js",
+  "license": "MIT"
+}
