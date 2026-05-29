@@ -19,3 +19,16 @@ package-lock.json
 .idea/
 *.swp
 *~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
