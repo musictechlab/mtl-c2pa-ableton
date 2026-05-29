@@ -1,6 +1,9 @@
 # mtl-c2pa-ableton
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/musictechlab/mtl-c2pa-ableton/actions/workflows/ci.yml/badge.svg)](https://github.com/musictechlab/mtl-c2pa-ableton/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
 [![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 Max for Live device that displays the [C2PA](https://c2pa.org/) manifest summary for the currently selected audio clip in Ableton Live. Click a clip — see who made it, what tool generated it, whether it's AI, what watermarks were applied, and who signed the claim.
@@ -99,11 +102,11 @@ The `.amxd` is a binary Max file. To reproduce or modify, see [`device/PATCHER.m
 
 ## Contributing
 
-PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) if present, otherwise open an issue first.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Security
 
-The HTTP server binds `127.0.0.1` only — no external network exposure.
+The HTTP server binds `127.0.0.1` only — no external network exposure. To report a vulnerability, see [SECURITY.md](SECURITY.md).
 
 ## License
 
@@ -118,7 +121,7 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 <div align="center">
-  MusicTech Lab — Rockstar Developers dedicated to the Music Industry<br>
+  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
   <a href="https://musictechlab.io">Website</a>
   <span> | </span>
   <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
